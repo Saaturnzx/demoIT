@@ -1,0 +1,32 @@
+header{
+    background-color: rgba(102, 93, 182, 0.966);
+
+}
+
+body{
+    background-color: rgb(78, 83, 131);
+}
+
+#Title {
+    background-color: rgb(105, 137, 180);
+}
+
+#courses{
+    background-color: rgb(28, 39, 99);
+}
+
+#work{
+    background-color: rgba(76, 103, 124, 0.973);
+}
+
+#reviews{
+    background-color: rgb(0, 0, 0);
+}
+
+footer{
+    background-color: rgb(25, 67, 204);
+}
+
+.rew{
+    background-color: white;
+}

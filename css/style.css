@@ -29,7 +29,7 @@ footer{
 
 .rew{
     background-color: white;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }

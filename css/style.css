@@ -57,5 +57,20 @@ main #Title p{
 }
 
 main #Title img{
-    
+
+}
+
+main #courses{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main #courses div{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
 }

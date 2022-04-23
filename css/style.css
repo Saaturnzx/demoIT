@@ -1,5 +1,5 @@
 header{
-    background-color: white;
+    background-color: rgba(109, 102, 102, 0.63);
     display: flex;
     flex-direction: row;
     height: 50px;
@@ -11,9 +11,11 @@ header{
     border-style:solid;
 }
 
-header img{
-    width: 75px;
+header #headerlogo img{
+    width: 50px;
+    margin-left: 5px;
 }
+
 
 header nav{
     top: 0;
@@ -29,11 +31,23 @@ header nav a{
     display:block;
     text-align: center;
     padding: 14px 16px;
-    
+    color: white;
+}
+
+header nav a:hover{
+    color: black;
+}
+
+header nav a:active{
+    color: red;
+}
+
+body{
+    background-color: rgba(68, 89, 128, 0.61);
 }
 
 main{
-    margin-top: 55px;
+    margin-top: 55px;   
     
 }
 
@@ -42,21 +56,25 @@ main h1{
 }
 
 main #Title{
+    display: flex;
+    flex-direction: row;
+}
+
+main #Title #AboutText{
     width: 50%;
     border: 1px;
     border-color: black;
     border-style: dashed;
+    height: 25%;
+    margin-left: 4%;
+    margin-top: 2%;
 }
 
-main #Title h2{
-
-
-}
-
-main #Title p{
-}
 
 main #Title img{
+  width: 500px;
+  padding-left: 5%;
+
 
 }
 
